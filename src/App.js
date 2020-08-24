@@ -64,7 +64,6 @@ function App(props) {
   const handleSearchTextChange = event => {
     dispatch(setAppSearchText(event.target.value));
   };
-  console.log(219, entriesList);
   return (
     <Container maxWidth="sm">
       <Card>
